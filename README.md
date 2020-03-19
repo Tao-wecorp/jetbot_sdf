@@ -4,9 +4,9 @@ Jetbot SDF model in Gazebo
 ## To-do
 1. Launch Jetbot SDF in ROS;
 2. Launch worlds in ROS;
-3. Add camera to Jetbot SDF
+3. Add camera to Jetbot SDF;
 4. Control Jetbot in Gazebo;
-5. Add training algorithms.
+5. Add RL algorithms.
 
 ## Env
 1. Run ./env.sh
