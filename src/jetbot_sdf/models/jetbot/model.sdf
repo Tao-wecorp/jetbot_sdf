@@ -137,6 +137,20 @@
 						<stddev>0.007</stddev>
 					</noise>-->
 				</camera>
+				<plugin name="camera_plugin" filename="libgazebo_ros_camera.so">
+					<alwaysOn>true</alwaysOn>
+					<updateRate>0.0</updateRate>
+					<cameraName>camera</cameraName>
+					<imageTopicName>/camera/color/image_raw</imageTopicName>
+					<cameraInfoTopicName>/camera/color/camera_info</cameraInfoTopicName>
+					<frameName>camera_link</frameName>
+					<distortionK1>0</distortionK1>
+					<distortionK2>0</distortionK2>
+					<distortionK3>0</distortionK3>
+					<distortionT1>0</distortionT1>
+					<distortionT2>0</distortionT2>
+					<hackBaseline>0</hackBaseline>
+				</plugin>
 				<always_on>1</always_on>
 				<update_rate>10</update_rate>
 				<visualize>true</visualize>
